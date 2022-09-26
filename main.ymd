@@ -1,0 +1,12 @@
+[mixin] vue
+
+[title]: 群sim助手
+
+[mixin] assets/katex.css
+
+<label>颜色数<input type="number" id="colors"></label>
+<label>球数<input type="number" id="balls"></label>
+<div id="output"></div>
+<button onclick="main()">算</button>
+
+[require](main.js)
